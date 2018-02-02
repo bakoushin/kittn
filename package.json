@@ -1,0 +1,32 @@
+{
+  "name": "kittn",
+  "version": "0.0.1",
+  "description": "Offline first kittens experience",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "socket.io": "^2.0.4",
+    "node-fetch": "^1.7.3"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/kittn"
+  },
+  "license": "MIT",
+  "keywords": [
+    "PWA",
+    "offline first",
+    "service worker",
+    "node",
+    "glitch",
+    "express",
+    "socket.io",
+    "unsplash",
+    "kitten"
+  ]
+}

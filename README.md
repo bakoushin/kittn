@@ -18,7 +18,7 @@ Unlike wittr, Kittn doesn't load with prefilled content. Instead, it behaves lik
 
 After the service worker comes into active state, Kittn starts filling the feed with cat photos. New cat apperas every single minute. 
 
-All data fetched by dynamic request is stored locally via AppCache and IndexedDB, so if user goes offline or simly refreshes the page, last 30 cats still available in the feed.
+All data fetched by dynamic request is stored locally via Cache storage and IndexedDB, so if user goes offline or simly refreshes the page, last 30 cats still available in the feed.
 
 If the browser is not supporting ServiceWorker, Kittn behaves like regular site: the cats still filling the feed, but offline or after page refresh they all are gone.
 
